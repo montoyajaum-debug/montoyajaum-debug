@@ -58,10 +58,6 @@ Analista de Business Intelligence con **7 años de experiencia** en el ciclo com
 |-----------|-----------|
 | 🎯 Cumplimiento ANS/SLA | **97,5%** sostenido vs. meta 95% — 26 clientes corporativos |
 | 📦 Servicios gestionados | **+400.000/año** · ~12.000/mes · 31 sedes |
-| 🏥 Reducción tasa de glosas | **12,4% → 10,2%** (~$22,9M COP/año recuperados) |
-| ⏱️ Reducción ciclo de reporte | **~22%** menos tiempo de generación |
-| 🔬 Cobertura preventiva | **38% → 61%** en pacientes crónicos |
-| 🤖 Precisión pronóstico financiero | **MAPE 10%** con modelo SARIMA |
 
 ---
 
@@ -101,18 +97,18 @@ Analista de Business Intelligence con **7 años de experiencia** en el ciclo com
 
 **Stack:** `Python` · `PostgreSQL` · `Power BI` · `CRISP-DM` · `SHA-256` · `SARIMA` · `K-Means`
 
-**Descripción:** Desarrollo de un tablero integral (ETL, modelado de datos, BI y analítica predictiva) para la gestión clínica y financiera de una IPS con **4.570 pacientes**, aplicando metodología CRISP-DM.
+**Descripción:** Desarrollo de un tablero integral (ETL, modelado de datos, BI y analítica predictiva) para la gestión clínica y financiera de una IPS del Putumayo, sobre **184.244 registros RIPS reales** (mayo 2025 – febrero 2026, 6.889 pacientes únicos), aplicando metodología CRISP-DM.
 
 **Mis contribuciones:**
-- Pipeline **ETL en Python** y modelo dimensional (esquema estrella) en PostgreSQL, con **seudonimización SHA-256** de identificadores de paciente en cumplimiento de la Ley 1581 de 2012.
-- Modelos predictivos: **Regresión lineal** (demanda asistencial) · **K-Means** (segmentación epidemiológica) · **SARIMA** (proyección financiera, MAPE 10%).
-- Integración de los modelos en el tablero Power BI del equipo para toma de decisiones ejecutivas.
+- Pipeline **ELT en Python** para archivos JSON RIPS (Resolución 2275/2023) y arquitectura por capas en PostgreSQL (raw → dim/fact → mart) con modelo estrella y **seudonimización** de identificadores de paciente.
+- Modelos predictivos **exploratorios** (línea base): regresión lineal (demanda asistencial) · K-Means (segmentación) · SARIMA (facturación mensual), con limitaciones documentadas por la corta extensión de la serie (10 meses).
+- Tablero Power BI conectado únicamente a la capa mart, con integración de los resultados de los modelos.
 
-**Resultados de negocio:**
+**Resultados del análisis:**
 ```
-Tasa de glosas financieras:  12,4% → 10,2%  (~$22,9M COP/año recuperados)
-Tiempo ciclo de reporte:     reducción del ~22%
-Cobertura preventiva:        38%   → 61%    (pacientes crónicos)
+Registros RIPS procesados:     184.244
+Facturación analizada:         $10.891 millones COP
+Outliers financieros (Z>3):    462 registros (0,25%) detectados con Z-score
 ```
 
 ---
