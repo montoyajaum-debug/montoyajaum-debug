@@ -7,7 +7,6 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jhon-urrea-data)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:montoyajaum@gmail.com)
 [![Colombia](https://img.shields.io/badge/Colombia-Ibagu%C3%A9%2C%20Tolima-4CAF50?style=for-the-badge&logo=googlemaps&logoColor=white)](https://www.google.com/maps/place/Ibague)
-[![Visitas](https://komarev.com/ghpvc/?username=montoyajaum-debug&style=for-the-badge&color=58A6FF&label=VISITAS)](https://github.com/montoyajaum-debug)
 
 </div>
 
@@ -90,12 +89,12 @@ Analista de Business Intelligence con **7 años de experiencia** en el ciclo com
 
 ---
 
-## 🚀 Proyecto Destacado
+## 🚀 Proyectos
 
 ### 🏥 Tablero de Control Integral de RIPS — IPS UNIMAP EU
 > Proyecto de grado · Especialización en Analítica de Datos (CUN) · Equipo de 3 · 2025–2026
 
-**Stack:** `Python` · `PostgreSQL` · `Power BI` · `CRISP-DM` · `SHA-256` · `SARIMA` · `K-Means`
+**Stack:** `Python` · `PostgreSQL` · `Power BI` · `CRISP-DM` · `K-Means` · `SARIMA`
 
 **Descripción:** Desarrollo de un tablero integral (ETL, modelado de datos, BI y analítica predictiva) para la gestión clínica y financiera de una IPS del Putumayo, sobre **184.244 registros RIPS reales** (mayo 2025 – febrero 2026, 6.889 pacientes únicos), aplicando metodología CRISP-DM.
 
@@ -111,6 +110,16 @@ Facturación analizada:         $10.891 millones COP
 Outliers financieros (Z>3):    462 registros (0,25%) detectados con Z-score
 ```
 
+### 🛒 [Inventario de Zepto con SQL](https://github.com/montoyajaum-debug/zepto-sql-analysis)
+**Stack:** `PostgreSQL` · `CTEs` · `Funciones de ventana` · `Calidad de datos`
+
+Detecté que las 3.731 filas del catálogo correspondían a **1.800 productos únicos** y que 4 grupos de categorías tenían el mismo catálogo. Rehice el análisis sobre productos únicos, lo que evitó reportar un ingreso potencial **inflado en 112%**.
+
+### 🛍️ [Comportamiento del cliente en retail](https://github.com/montoyajaum-debug/Analisis_del_consumidor)
+**Stack:** `Python` · `PostgreSQL` · `Power BI`
+
+Pipeline Python → PostgreSQL → Power BI sobre 3.900 transacciones. Validé la calidad del dataset antes de recomendar acciones comerciales y corregí **3 errores lógicos en SQL** que daban resultados incorrectos sin generar error.
+
 ---
 
 ## 🎓 Educación y Certificaciones
@@ -124,20 +133,6 @@ Outliers financieros (Z>3):    462 registros (0,25%) detectados con Z-score
 | 🎓 Tecnología en Gestión Financiera | Politécnico Grancolombiano | 2013–2017 |
 
 **Cursos relevantes (CUN):** Estadística Probabilística e Inferencial · Bases de Datos · Data Warehouse · Herramientas Big Data · Fundamentos de Business Intelligence · Analítica para la Toma de Decisiones
-
----
-
-## 📊 Estadísticas GitHub
-
-<div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=montoyajaum-debug&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true&locale=es" alt="GitHub Stats"/>
-  &nbsp;
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=montoyajaum-debug&layout=compact&theme=github_dark&hide_border=true&langs_count=6" alt="Lenguajes"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=montoyajaum-debug&theme=github-dark-blue&hide_border=true&locale=es" alt="Racha GitHub" />
-</div>
 
 ---
 
